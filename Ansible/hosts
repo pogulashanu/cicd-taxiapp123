@@ -1,0 +1,14 @@
+[jenkins-master]
+172.31.46.17
+
+[jenkins-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/taxi.pem
+
+[jenkins-slave]
+172.31.44.4  
+
+[jenkins-slave:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/taxi.pem
+
