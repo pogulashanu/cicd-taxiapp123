@@ -51,3 +51,5 @@ lkscnsd
 
 jenkin is suceesful launch .
 jenkins is updatd code .
+
+pipeline is code is complted...
