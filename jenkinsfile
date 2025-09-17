@@ -30,8 +30,8 @@ environment {
                     // Run SonarQube analysis
                     sh """
                     mvn sonar:sonar \
-                    -Dsonar.projectKey=Chandanasai1712_cicd-taxiapp \
-                    -Dsonar.organization=taxiapp \
+                    -Dsonar.projectKey=taxi-app3830_taxi \
+                    -Dsonar.organization=taxi-app3830 \
                     -Dsonar.host.url=https://sonarcloud.io \
                     -Dsonar.token=${SONAR_TOKEN}
                     """
