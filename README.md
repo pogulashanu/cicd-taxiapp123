@@ -50,3 +50,4 @@ csadovsdmvkosendvekov;zeo;sv
 lkscnsd
 
 jenkin is suceesful launch .
+jenkins is updatd code .
